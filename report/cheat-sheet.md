@@ -1,6 +1,6 @@
 # Cheat sheets and checklists
 
-- Student name: NAME
+- Student name: Hanno van Baarle
 - GitHub repo: URL
 
 ## Basic commands
@@ -22,6 +22,12 @@
 | List all images     | `docker images`         |
 | Stop a container    | `docker stop CONTAINER` |
 | Remove a container  | `docker rm CONTAINER`   |
+| Remove an image     | `docker rmi IMAGE`      |
+| pull image from dockerhub | `docker build --platform linux/amd64 -t hannodocker/dockerlab1 .` |
+| push image to dockerhub | `docker push hannodocker/dockerlab1` |
+| use docker compose file to start containers | `docker compose up -d` |
+| stop containers | `docker compose down` |
+| build container | `docker build -t webapp .` |
 
 ## Git workflow
 

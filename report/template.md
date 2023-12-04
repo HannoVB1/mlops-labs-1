@@ -2,8 +2,8 @@
 
 ## Student information
 
-- Student name: NAME
-- Student code: CODE
+- Student name: Hanno van Baarle
+- Student code: 182620hv
 
 ## Assignment description
 
