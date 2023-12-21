@@ -31,12 +31,15 @@
 
 ## Kubernetes commands
 
-| Task                                           | Command                                     |
-| :--------------------------------------------- | :------------------------------------------ |
-| interact with cluster                          | `minikube kubectl -- get po -A`             |
-| real-time view on what happens on your cluster | `kubectl get all`                           |
-| get which node is running which pod            | `kubectl get pods --all-namespaces -o wide` |
-| check logs of pod                              | `kubectl logs -f <name>`                    |
+| Task                                           | Command                                      |
+| :--------------------------------------------- | :------------------------------------------- |
+| Start minikube with docker                     | `minikube start --driver=docker`             |
+| interact with cluster                          | `minikube kubectl -- get po -A`              |
+| real-time view on what happens on your cluster | `kubectl get all`                            |
+| get which node is running which pod            | `kubectl get pods --all-namespaces -o wide`  |
+| check logs of pod                              | `kubectl logs -f <name>`                     |
+| Delete pods with certain label                 | `kubectl delete pods --selector <statement>` |
+| More commands in the lab report                | `other commands in the lab report`           |
 
 ## Git workflow
 

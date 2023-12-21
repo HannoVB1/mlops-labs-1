@@ -1,0 +1,6 @@
+kubectl get pods --selector env=production
+kubectl get pods --selector env!=production
+kubectl get pods -l 'env in (development,acceptance)'
+kubectl get pods --selector release_version=2.0
+kubectl get pods --selector team=api,release_version=2.0
+kubtectl delete pods --selector env=development
